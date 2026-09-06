@@ -6,5 +6,6 @@ Sept 01, 2026 (Tuesday)
 
 Sept 06, 2026 (Monday)
   created a Basic Sorting Algorithm folder, in this I will store all the sorting algorithms that I have learned in C++.
-  Learned about the bubble sort method and created its code (with little optimization) and added to BasicSortingAlgorithms folder.
+  Learned about the bubble sort method, created its code (with little optimization) and added to BasicSortingAlgorithms folder.
+  Learned about the selection sort algorithm, created its code and added to BasicSortingAlgorithms folder.
 
