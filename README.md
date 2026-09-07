@@ -11,3 +11,4 @@ This repo consist of small projects/program that I made during my C++ learning j
 
 **Sept 07, 2026 (Monday)**
   Learned about Insertion Sort method, created its code and added to BasicSortingAlgorithm folder.
+  Learned about Counting Sort method, created its code and added to BasicSortingAlgorithm folder.
