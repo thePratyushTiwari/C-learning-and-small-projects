@@ -15,3 +15,5 @@ This repo consist of small projects/program that I made during my C++ learning j
 
 **Sept 08, 2026 (Tuesday)**
   Created a program that takes an Array as input and remove the duplicate elements and makes a new array that contains distinct elements.
+  Learned 2D Array in C++.
+  Coded a logic for Spiral Matrix and added it to 2D Array folder.
