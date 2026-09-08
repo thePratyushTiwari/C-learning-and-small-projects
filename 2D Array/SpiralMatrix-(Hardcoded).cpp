@@ -29,6 +29,7 @@ void spiralMatrix(int arr[][5], int n, int m){
     
         //bottom row
         for(int i = encol; i >= stcol; i--){
+            if(strow==enrow)    break;
             cout << arr[enrow][i] << ' ';
         }
     
@@ -36,6 +37,7 @@ void spiralMatrix(int arr[][5], int n, int m){
     
         //left column
         for(int i = enrow; i >= strow; i--){
+            if(stcol==encol)    break;
             cout << arr[i][stcol] << ' ';
         }
     
