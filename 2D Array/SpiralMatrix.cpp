@@ -11,7 +11,7 @@ void spiralMatrix(int arr[][5], int n, int m){
     
     int encol = m - 1;
     
-    while(strow<=enrow){
+    while(strow <= enrow && stcol <= encol){
     
         //top row
         for(int i = stcol; i <= encol; i++){
@@ -40,7 +40,11 @@ void spiralMatrix(int arr[][5], int n, int m){
         }
     
         stcol++;
+        
     }
+
+    cout << '\n';
+    
 }
 
 int main(){
