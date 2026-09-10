@@ -20,3 +20,6 @@ This repo consist of small projects/program that I made during my C++ learning j
 
 **Sept 09, 2026 (Wednesday)**
   Created code for reversing an Array and is optimized for all datatypes of array.
+
+**Sept 10, 2026 (Thursday)**
+  Created logic for searching for an element in a matrix and coded in C++ (Added to "SearchingInMatrix.cpp" in 2D Array folder).
