@@ -23,3 +23,7 @@ This repo consist of small projects/program that I made during my C++ learning j
 
 **Sept 10, 2026 (Thursday)**
   Created logic for searching for an element in a matrix and coded in C++ (Added to "SearchingInMatrix.cpp" in 2D Array folder).
+
+**Sept 11, 2026 (Friday)**
+  Learned about strings in C++, created logic for reversing a string, coded it and added to reversingString.cpp in String folder.
+  Created logic to find if a string is palindrome or not, coded the program and added to palindromeString.cpp in String folder.
