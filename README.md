@@ -27,3 +27,7 @@ This repo consist of small projects/program that I made during my C++ learning j
 **Sept 11, 2026 (Friday)**
   Learned about strings in C++, created logic for reversing a string, coded it and added to reversingString.cpp in String folder.
   Created logic to find if a string is palindrome or not, coded the program and added to palindromeString.cpp in String folder.
+
+**Sept 12, 2026 (Saturday)**
+  Learned STL (vector) dynamic memory management and preventing memory leak.
+  Created a logic for two sum problem of leetCode and program it and added to two_sum.cpp in Vector folder.
