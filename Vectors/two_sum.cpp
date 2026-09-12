@@ -25,32 +25,26 @@ int main(){
     cin >> target;
 
     bool isSumFound = false;
+
+    int st = 0, en = vec1.size() - 1;
     
     int index1, index2, val1, val2;
 
     //ierating over the vector with two pointers to find the two values that sum up to target
-    for(int i = 0; i < vec1.size() - 1; i++){
-      
-        for(int j = i + 1; j < vec1.size(); j++){
-          
-            if(vec1[i] + vec1[j] == target){
-              
-                isSumFound = true;
-                
-                index1 = i;
-                
-                index2 = j;
-                
-                val1 = vec1[i];
-                
-                val2 = vec1[j];
-                
-                break;
-            
-            }
-        
+    while(st < en){
+        int sum = vec1[st] + vec1[en];
+        if( sum == target){
+            isSumFound = true;
+            index1 = st;
+            index2 = en;
+            val1 = vec1[st];
+            val2 = vec1[en];
+            break;
+        } else if( sum < target ){
+            st++;
+        } else {
+            en--;
         }
-    
     }
 
     if(isSumFound) {
